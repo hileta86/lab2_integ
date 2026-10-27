@@ -38,7 +38,7 @@ jobs:
           curl -sf -X POST -F "file=@samples/yes.wav" http://localhost:8000/predict | tee predict_yes.json
           ACC=$(curl -s http://localhost:8000/model-info | jq '.accuracy')
           echo "accuracy=$ACC"
-          python -c "import sys; sys.exit(0 if $ACC >= 80 else 1)"
+          python -c "import sys; sys.exit(0 if $ACC >= 99 else 1)"
 
       - name: Logs on failure
         if: failure()
