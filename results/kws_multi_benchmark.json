@@ -1,0 +1,15 @@
+{
+  "file": "samples\\yes.wav",
+  "warmup": 10,
+  "requests": 100,
+  "server_ms": {
+    "mean": 2.13,
+    "p50": 1.97,
+    "p95": 3.28
+  },
+  "client_ms": {
+    "mean": 7.12,
+    "p50": 6.31,
+    "p95": 10.92
+  }
+}

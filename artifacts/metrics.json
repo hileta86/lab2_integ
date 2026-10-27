@@ -1,0 +1,17 @@
+{
+  "dataset": "Google Speech Commands v0.02",
+  "classes": [
+    "yes",
+    "no",
+    "up",
+    "down"
+  ],
+  "architecture": "AudioCNN",
+  "accuracy": 91.9,
+  "model_size_kb": 280.1,
+  "model_version": "1.0.0",
+  "epochs": 10,
+  "seed": 42,
+  "training_samples": 12440,
+  "test_samples": 1655
+}

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+data/
+SpeechCommands/
+results/test_ci_artifacts/
+results/report_full.html
