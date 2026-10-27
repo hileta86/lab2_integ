@@ -6,5 +6,8 @@ __pycache__/
 .ruff_cache/
 data/
 SpeechCommands/
-results/test_ci_artifacts/
-results/report_full.html
+results/
+*.pdf
+REPORT.md
+README.md
+scripts/generate_report_pdf.py
